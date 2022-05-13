@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBCVENTITYModelStoreContainer" CdmEntityContainer="DBCVENTITYEntities1">
+    <EntitySetMapping Name="TBLDENEYIM">
+      <EntityTypeMapping TypeName="DBCVENTITYModel.TBLDENEYIM">
+        <MappingFragment StoreEntitySet="TBLDENEYIM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Deneyim" ColumnName="Deneyim" />
+          <ScalarProperty Name="Deneyimayrinti" ColumnName="Deneyimayrinti" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLDIL">
+      <EntityTypeMapping TypeName="DBCVENTITYModel.TBLDIL">
+        <MappingFragment StoreEntitySet="TBLDIL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Yabancidil" ColumnName="Yabancidil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLEGITIM">
+      <EntityTypeMapping TypeName="DBCVENTITYModel.TBLEGITIM">
+        <MappingFragment StoreEntitySet="TBLEGITIM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Egitimokul" ColumnName="Egitimokul" />
+          <ScalarProperty Name="Egitimayrinti" ColumnName="Egitimayrinti" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLHAKKIMDA">
+      <EntityTypeMapping TypeName="DBCVENTITYModel.TBLHAKKIMDA">
+        <MappingFragment StoreEntitySet="TBLHAKKIMDA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Hakkimda" ColumnName="Hakkimda" />
+          <ScalarProperty Name="Adsoyad" ColumnName="Adsoyad" />
+          <ScalarProperty Name="Unvan" ColumnName="Unvan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLILETIŞIM">
+      <EntityTypeMapping TypeName="DBCVENTITYModel.TBLILETIŞIM">
+        <MappingFragment StoreEntitySet="TBLILETIŞIM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Konu" ColumnName="Konu" />
+          <ScalarProperty Name="Mesaj" ColumnName="Mesaj" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLSERTIFIKA">
+      <EntityTypeMapping TypeName="DBCVENTITYModel.TBLSERTIFIKA">
+        <MappingFragment StoreEntitySet="TBLSERTIFIKA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Sertifika" ColumnName="Sertifika" />
+          <ScalarProperty Name="Sertifikaayrinti" ColumnName="Sertifikaayrinti" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLYETENEK">
+      <EntityTypeMapping TypeName="DBCVENTITYModel.TBLYETENEK">
+        <MappingFragment StoreEntitySet="TBLYETENEK">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Yetenek" ColumnName="Yetenek" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
